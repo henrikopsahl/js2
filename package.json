@@ -1,0 +1,20 @@
+{
+  "name": "js2",
+  "version": "1.0.0",
+  "description": "My JS2 assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henrikopsahl/js2.git"
+  },
+  "keywords": [],
+  "author": "Henrik Opsahl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henrikopsahl/js2/issues"
+  },
+  "homepage": "https://github.com/henrikopsahl/js2#readme"
+}
