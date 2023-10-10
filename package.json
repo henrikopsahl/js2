@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/henrikopsahl/js2.git"
   },
-  "keywords": [],
+  "keywords": ["css", "Frameworks", "bootstrap"],
   "author": "Henrik Opsahl",
   "license": "ISC",
   "bugs": {
