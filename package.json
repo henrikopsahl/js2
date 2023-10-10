@@ -10,11 +10,21 @@
     "type": "git",
     "url": "git+https://github.com/henrikopsahl/js2.git"
   },
-  "keywords": ["css", "Frameworks", "bootstrap"],
+  "keywords": [
+    "css",
+    "Frameworks",
+    "bootstrap"
+  ],
   "author": "Henrik Opsahl",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/henrikopsahl/js2/issues"
   },
-  "homepage": "https://github.com/henrikopsahl/js2#readme"
+  "homepage": "https://github.com/henrikopsahl/js2#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  },
+  "devDependencies": {
+    "sass": "^1.69.1"
+  }
 }
