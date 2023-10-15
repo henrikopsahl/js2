@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/css/styles.css" />
+    <link rel="stylesheet" href="/src/scss/styles.scss" />
+    <title>Some | Login</title>
+</head>
+<body class="bg-primary">
+<main>
+    <h1 class="text-danger text-center mt-5">Header</h1>
+    <div class="container mt-5">
+        <!-- Login Form -->
+        <div class="row justify-content-center" id="loginFormContainer">
+            <div class="col-md-8">
+                <div class="card bg-danger">
+                    <div class="card-header text-primary">
+                        <h3 class="text-center">Login</h3>
+                    </div>
+                    <div class="card-body">
+                        <form id="loginForm" method="POST">
+                            
+                            <div class="mb-3">
+                                <label for="email" class="form-label text-primary"
+                                >Email</label
+                                >
+                                <input
+                                        type="email"
+                                        class="form-control bg-primary"
+                                        id="email"
+                                        name="email"
+                                        required
+                                        pattern="^[\w\-.]+@(stud\.)?noroff\.no$"
+                                        title="Only user with the @stud.noroff.no domains are allowed to log in"
+                                />
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label text-primary"
+                                >Password</label
+                                >
+                                <input
+                                        type="password"
+                                        class="form-control bg-primary"
+                                        id="password"
+                                        name="password"
+                                        required
+                                        minlength="8"
+                                />
+                            </div>
+                            <div class="mb-3">
+                                <button type="submit" class="btn btn-primary text-success">
+                                    Login
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card-footer text-center">
+                      <p class="mb-0 text-success">Create an account? <a href="/register/index.html" class="text-success">Click here</a></p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
